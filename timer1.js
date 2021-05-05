@@ -1,6 +1,6 @@
 const args = process.argv.slice(2);
 
-const beep = function (beepDelay) {
+const beep = function(beepDelay) {
   setTimeout(() => {
     process.stdout.write("\x07");
   }, beepDelay * 1000);
